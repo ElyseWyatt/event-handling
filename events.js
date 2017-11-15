@@ -26,7 +26,7 @@ function two () {
   var two = document.getElementByID('two')
   two.addEventListener('mouseenter', makeGreen)
   two.addEventListener('mouseleave', makeWhite)
-  
+
 }
 // CREATE FUNCTION two HERE
 
@@ -41,4 +41,8 @@ function makeBlue (evt) {
 
 function makeWhite (evt) {
   evt.target.style.backgroundColor = 'white'
+}
+
+function makeGreen (evt) {
+  evt.target.style.backgroundColor = 'green'
 }
